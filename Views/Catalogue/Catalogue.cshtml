@@ -1,0 +1,17 @@
+@using Bookish.Models;
+@model Catalogue;
+
+@{
+    ViewData["Title"] = "Catalogue";
+}
+
+<div class="text-center">
+    <p>Catalogue:</p>
+    <ul>@{
+            foreach (var book in Model.BookCatalogue)
+            {
+                <li>@book.Title</li>
+            }
+        }
+    </ul>
+</div>

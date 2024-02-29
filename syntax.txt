@@ -1,0 +1,8 @@
+dotnet new mvc
+dotnet run
+dotnet watch run
+
+git init
+git remote add origin GitHub URL
+git remote --v
+git add .

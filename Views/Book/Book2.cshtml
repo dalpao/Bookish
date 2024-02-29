@@ -1,0 +1,12 @@
+@using Bookish.Models;
+@model Book; // In the Model Book, the properties were: Title, Author - This file name is "Book1", so C# already knows what to pass
+
+
+@{
+    ViewData["Title"] = "Book2";
+}
+
+<div class="text-center">
+    <p>Title: @Model.Title</p>
+    <p>Author: @Model.Author </p>
+</div>
