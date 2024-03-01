@@ -10,7 +10,7 @@
     <ul>@{
             foreach (var book in Model.BookCatalogue)
             {
-                <li>@book.Title</li>
+                <li>@book.Title by @book.Author</li>
             }
         }
     </ul>

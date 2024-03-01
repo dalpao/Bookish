@@ -5,7 +5,7 @@ namespace Bookish.Controllers;
 
 public class CatalogueController : Controller
 {
-   public IActionResult Catalogue() //LocalHost/Book/Catalogue2024
+   public IActionResult Index() //LocalHost/Book/Catalogue2024
    {
       var catalogue2024 = new Catalogue // Instance of "Book" was created
       {

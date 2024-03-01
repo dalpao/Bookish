@@ -6,3 +6,5 @@ git init
 git remote add origin GitHub URL
 git remote --v
 git add .
+git commit -m "Comment"
+git push
